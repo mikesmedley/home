@@ -1,0 +1,153 @@
+<?php
+
+function msdc_forms_help( $path, $arg )
+{
+    if( $path == 'admin/help#msdc_forms' ) {
+        return( t("Handles form creation, validation, and processing.") );
+    }
+}
+
+function msdc_contact_form( $form, &$form_state )
+{
+    $form['from'] = array(
+        '#id' => 'from',
+        '#type' => 'textfield',
+        '#title' => t("From E-mail address:"),
+        '#size' => 40,
+        '#maxlength' => 40,
+        '#required' => TRUE,
+    );
+
+    $form['subject'] = array(
+        '#id' => 'subject',
+        '#type' => 'textfield',
+        '#title' => t("Subject"),
+        '#size' => 50,
+        '#maxlength' => 50,
+        '#required' => FALSE,
+    );
+
+    $form['msg'] = array(
+        '#id' => 'msg',
+        '#type' => 'textarea',
+        '#cols' => 80,
+        '#rows' => 10,
+        '#title' => t("Message:"),
+        '#required' => TRUE,
+    );
+
+    $form['submit'] = array(
+        '#id' => 'submit',
+        '#type' => 'submit',
+        '#value' => t("Send"),
+    );
+
+    $form['cancel']= array(
+        '#id' => 'cancel',
+        '#type' => 'button',
+        '#value' => t("Cancel"),
+    );
+
+    return( $form );
+}
+
+/**
+Validate an email address.
+Provide email address (raw input)
+Returns true if the email address has the email
+address format and the domain exists.
+*/
+function validate_email($email)
+{
+   $isValid = true;
+   $atIndex = strrpos($email, "@");
+   if (is_bool($atIndex) && !$atIndex)
+   {
+      $isValid = false;
+   }
+   else
+   {
+      $domain = substr($email, $atIndex+1);
+      $local = substr($email, 0, $atIndex);
+      $localLen = strlen($local);
+      $domainLen = strlen($domain);
+      if ($localLen < 1 || $localLen > 64)
+      {
+         // local part length exceeded
+         $isValid = false;
+      }
+      else if ($domainLen < 1 || $domainLen > 255)
+      {
+         // domain part length exceeded
+         $isValid = false;
+      }
+      else if ($local[0] == '.' || $local[$localLen-1] == '.')
+      {
+         // local part starts or ends with '.'
+         $isValid = false;
+      }
+      else if (preg_match('/\\.\\./', $local))
+      {
+         // local part has two consecutive dots
+         $isValid = false;
+      }
+      else if (!preg_match('/^[A-Za-z0-9\\-\\.]+$/', $domain))
+      {
+         // character not valid in domain part
+         $isValid = false;
+      }
+      else if (preg_match('/\\.\\./', $domain))
+      {
+         // domain part has two consecutive dots
+         $isValid = false;
+      }
+      else if(!preg_match('/^(\\\\.|[A-Za-z0-9!#%&`_=\\/$\'*+?^{}|~.-])+$/',
+                 str_replace("\\\\","",$local)))
+      {
+         // character not valid in local part unless
+         // local part is quoted
+         if (!preg_match('/^"(\\\\"|[^"])+"$/',
+             str_replace("\\\\","",$local)))
+         {
+            $isValid = false;
+         }
+      }
+      if ($isValid && !(checkdnsrr($domain,"MX") || checkdnsrr($domain,"A")))
+      {
+         // domain not found in DNS
+         $isValid = false;
+      }
+   }
+   return $isValid;
+}
+
+function msdc_contact_form_validate($form, &$form_state) {
+  if ( !validate_email( $form_state['values']['from'] ) ) {
+    form_set_error('', t('E-mail Address is invalid.'));
+  }
+}
+
+function msdc_contact_form_submit($form, &$form_state) {
+
+    $from = $form_state['values']['from'];
+    $subj = $form_state['values']['subject'];
+    $msg = $form_state['values']['msg'];
+
+    if( strstr( $subj, "@mikesmedley.com" ) != FALSE ) exit;
+
+    if( strstr( $msg, "from=" ) != FALSE && strstr( $msg, "Content-Type: multipart/alternative" ) != FALSE ) exit;
+
+    $url = "http://www.mikesmedley.com/mail.php?from=$from&subj=$subj";
+    include( "/home/mkmedley/include/loginc.php" );
+
+    $host = gethostbyaddr( $_SERVER['REMOTE_ADDR'] );
+
+    $mailsend = mail(
+        "mike@mikesmedley.com",
+        "$subj",
+        "*** POSTED FROM THE WEB ***\r\n\r\n$msg",
+        "From: $from\r\nX-Originating-IP: " . $_SERVER['REMOTE_ADDR'] . "\r\nX-Originating-Host: $host\r\n" );
+
+    drupal_set_message(t('Your e-mail has been sent.'));
+
+}

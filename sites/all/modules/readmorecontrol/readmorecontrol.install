@@ -1,0 +1,60 @@
+<?php
+
+/**
+ * @file
+ * Standand installation functions.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function readmorecontrol_uninstall() {
+  // Delete the 'readmorecontrol_node_%' variables set on the node types.
+  $types = node_type_get_types();
+  foreach ($types as $key => $type) {
+    variable_del('readmorecontrol_node_' . $key);
+  }
+  variable_del('readmorecontrol_default_node_behaviour');
+
+  // Now delete the readmore_behaviour values from node field instances.
+  $node_bundles = field_info_instances('node');
+  foreach ($node_bundles as $bundle => $bundle_instances) {
+    foreach ($bundle_instances as $field_name => $instance) {
+      if (isset($instance['readmore_behaviour'])) {
+        unset($instance['readmore_behaviour']);
+        field_update_instance($instance);
+      }
+    }
+  }
+}
+
+/**
+ * Update naming of internal variable 'node_readmorecontrol_%'.
+ */
+function readmorecontrol_update_7000() {
+  foreach (node_type_get_types() as $key => $type) {
+    // Only update if it is set so that the defaults still work.
+    if ($value = variable_get('node_readmorecontrol_' . $key, FALSE)) {
+      variable_set('readmorecontrol_node_' . $key, $value);
+      variable_del('node_readmorecontrol_' . $key);
+    }
+  }
+}
+
+/**
+ * Update node instance settings if required and rebuilds the menu.
+ */
+function readmorecontrol_update_7001() {
+  $node_bundles = field_info_instances('node');
+  foreach ($node_bundles as $bundle => $bundle_instances) {
+    foreach ($bundle_instances as $field_name => $instance) {
+      if (isset($instance['readmorecontrol_ignore'])) {
+        $instance['readmore_behaviour'] = $instance['readmorecontrol_ignore'] ? 'ignore' : 'process';
+        unset($instance['readmorecontrol_ignore']);
+        field_update_instance($instance);
+      }
+    }
+  }
+  variable_set('menu_rebuild_needed', TRUE);
+  return t('Menu links are queued to be rebuilt.');
+}

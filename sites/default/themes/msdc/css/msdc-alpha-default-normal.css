@@ -1,0 +1,28 @@
+
+
+
+/*-------------------- page-wide ------------------*/
+
+#html5canvas {
+    position: absolute;
+    top:  0px;
+    left: 0px;
+    z-index: 9;
+    background-image: url('../images/transparent.png');
+    pointer-events: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/transparent.png', sizingMethod='scale');
+    background:none !important;
+    display: block;
+}
+
+/*------------------ zone-branding -----------------------*/
+
+#zone-branding {
+    margin-top: 0;
+    height: 100%;
+}
+
+#region-branding {
+    background-position: top left;
+    background-size: 830px auto;
+}

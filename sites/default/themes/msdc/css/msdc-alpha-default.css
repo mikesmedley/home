@@ -1,0 +1,79 @@
+
+/*------------------ page-wide -------------------*/
+
+#page-background-glare-wrapper {
+   position: fixed;
+   width:100%;
+}
+
+#page-background-glare {
+   position: relative;
+   top: 0px;
+   left: 0px;
+   max-width: 307px;
+   min-width: 1000px;
+   height: 321px;
+   margin-right: auto;
+   background-image: url('../images/page-glare.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+}
+
+
+/*---------------- zone-user ----------------------*/
+
+#zone-user {
+}
+
+/*------------------ zone-branding -----------------------*/
+
+#zone-branding {
+}
+
+#region-branding {
+    background-image: url('../images/region-branding-bg.png');
+    background-size: 100% 152px;
+    height: 154px;
+    background-color: transparent;
+}
+
+.logo-img {
+    margin-top: 7px;
+    height: 113px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.site-name {
+    position: relative;
+    top: -2px;
+}
+
+.site-slogan {
+    position: relative;
+    top: 0px;
+}
+
+
+.fb-like {
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+
+
+/*---------------- zone-menu ----------------------*/
+
+#main-menu {
+    float: right;
+}
+
+/*---------------- contact form ----------------*/
+
+#msdc-contact-form #cancel {
+    margin-left: 70px;
+}
+
+
