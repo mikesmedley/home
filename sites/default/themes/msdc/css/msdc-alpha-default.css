@@ -56,24 +56,26 @@
     top: 0px;
 }
 
+/*---------------- zone-menu ----------------------*/
 
 .fb-like {
-    position: absolute;
-    top: 80px;
-    left: 500px;
+    position: relative;
+    left: 30px;
+    top: 4px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    width: 100px;
 }
-
-
-/*---------------- zone-menu ----------------------*/
 
 #main-menu {
     float: right;
 }
 
-/*---------------- contact form ----------------*/
+/*------------------ zone-content ---------------*/
 
-#msdc-contact-form #cancel {
-    margin-left: 70px;
+#region-sidebar-first #edit-submit {
+    margin-top: 0;
 }
+
 
 

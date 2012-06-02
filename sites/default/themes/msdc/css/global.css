@@ -333,6 +333,15 @@ li.rss {
     background-image: url('../images/zone-menu-bg.png');
 }
 
+.fb-like {
+    position: relative;
+    left: 350px;
+    top: -30px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    width: 100px;
+}
+
 .main-menu a {
     -moz-box-shadow:inset 0px 1px 0px 0px #dbb0ad;
     -webkit-box-shadow:inset 0px 1px 0px 0px #dbb0ad;
@@ -405,7 +414,7 @@ li.rss {
 }
 
 #region-sidebar-first #edit-submit {
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 #region-content h1.title {
@@ -414,6 +423,10 @@ li.rss {
 
 .feed-icon {
     display: none;
+}
+
+#msdc-contact-form #cancel {
+    margin-left: 70px;
 }
 
 /*---------------- news feed -------------------*/

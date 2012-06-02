@@ -5,4 +5,3 @@ function msdc_alpha_preprocess_html( &$vars ) {
         drupal_add_js( base_path()."/sites/default/themes/msdc/js/html5logo.js" );
     }
 }
-

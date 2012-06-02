@@ -1,3 +1,9 @@
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
 
+/*------------------ zone-content ---------------*/
+
+#region-sidebar-first #edit-submit {
+    margin-top: 5px;
+}
+
 

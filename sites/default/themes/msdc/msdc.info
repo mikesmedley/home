@@ -18,6 +18,7 @@ regions[user_second] = User Bar Second
 
 regions[branding] = Branding First
 regions[branding_second] = Branding Second
+
 regions[menu] = Menu
 
 regions[sidebar_first] = Sidebar First
