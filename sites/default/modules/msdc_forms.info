@@ -1,7 +1,0 @@
-;Id$
-name = MSDC forms
-description = Module which handles form creation, validation, and processing.
-core = 7.x
-package = MSDC
-files[] = msdc_forms.module
-

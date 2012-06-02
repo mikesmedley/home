@@ -1,0 +1,7 @@
+;Id$
+name = MSDC custom
+description = Custom site functionality
+core = 7.x
+package = MSDC
+files[] = msdc_forms.module
+
