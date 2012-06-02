@@ -333,16 +333,34 @@ li.rss {
     background-image: url('../images/zone-menu-bg.png');
 }
 
+#block-block-3 {
+    width: 100px;
+    float: right;
+}
+
 .fb-like {
-    position: relative;
-    left: 350px;
-    top: -30px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     width: 100px;
 }
 
-.main-menu a {
+#block-system-main-menu {
+    float:left;
+}
+
+#block-system-main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-image: none;
+}
+
+#block-system-main-menu .menu li {
+    display: inline;
+}
+
+/* .main-menu a */
+#block-system-main-menu .menu a {
     -moz-box-shadow:inset 0px 1px 0px 0px #dbb0ad;
     -webkit-box-shadow:inset 0px 1px 0px 0px #dbb0ad;
     box-shadow:inset 0px 1px 0px 0px #dbb0ad;
@@ -364,7 +382,7 @@ li.rss {
     color:white;
 }
 
-.main-menu a:hover {
+#block-system-main-menu .menu a:hover {
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #435211), color-stop(1, #9e3389) );
     background:-moz-linear-gradient( center top, #435211 5%, #9e3389 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#435211', endColorstr='#9e3389');
@@ -372,11 +390,11 @@ li.rss {
     color:#94bef2;
 }
 
-.main-menu a.active {
+#block-system-main-menu .menu a.active {
     color:#94bef2;
 }
 
-.main-menu li {
+#block-system-main-menu .menu li {
     margin-right: 0;
 }
 

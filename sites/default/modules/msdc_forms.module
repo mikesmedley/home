@@ -152,4 +152,9 @@ function msdc_contact_form_submit($form, &$form_state) {
 
 }
 
+function msdc_alpha_preprocess_region( &$vars ) {
+    if( $vars['region'] == "menu" ) {
+       //  debug( $vars );
+    }
+}
 

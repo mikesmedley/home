@@ -58,17 +58,19 @@
 
 /*---------------- zone-menu ----------------------*/
 
+#block-block-3 {
+    width: 100px;
+    float: left;
+}
+
 .fb-like {
-    position: relative;
-    left: 30px;
-    top: 4px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     width: 100px;
 }
 
-#main-menu {
-    float: right;
+#block-system-main-menu {
+    float:right;
 }
 
 /*------------------ zone-content ---------------*/

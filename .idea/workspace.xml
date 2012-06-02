@@ -1,238 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8de9a1e5-098b-4ea5-a097-47ad38d5bff9" name="Default" comment="initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/preprocess/preprocess-region.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context.info" afterPath="$PROJECT_DIR$/sites/all/modules/context/context.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context.install" afterPath="$PROJECT_DIR$/sites/all/modules/context/context.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/context_layouts.info" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/context_layouts.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/context_ui.info" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/context_ui.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/tests/context_ui.test" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/tests/context_ui.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_block.svg" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_block.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/tests/context.reactions.test" afterPath="$PROJECT_DIR$/sites/all/modules/context/tests/context.reactions.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity.info" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity.test" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity_token.info" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity_token.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_feature.info" afterPath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_feature.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_test.info" afterPath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_test.install" afterPath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_test.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_test_i18n.info" afterPath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_test_i18n.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/menu_attributes/menu_attributes.info" afterPath="$PROJECT_DIR$/sites/all/modules/menu_attributes/menu_attributes.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/menu_attributes/menu_attributes.install" afterPath="$PROJECT_DIR$/sites/all/modules/menu_attributes/menu_attributes.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/starterkit_omega_html5.info" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/starterkit_omega_html5.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/bartik.info" afterPath="$PROJECT_DIR$/themes/bartik/bartik.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/engines/phptemplate/phptemplate.engine" afterPath="$PROJECT_DIR$/themes/engines/phptemplate/phptemplate.engine" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/garland.info" afterPath="$PROJECT_DIR$/themes/garland/garland.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/stark/stark.info" afterPath="$PROJECT_DIR$/themes/stark/stark.info" />
+    <list default="true" id="8de9a1e5-098b-4ea5-a097-47ad38d5bff9" name="Default" comment="fixed menus">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UPGRADE.txt" afterPath="$PROJECT_DIR$/UPGRADE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/API.txt" afterPath="$PROJECT_DIR$/sites/all/modules/context/API.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/LICENSE.txt" afterPath="$PROJECT_DIR$/sites/all/modules/context/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/context/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/context/context.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context.core.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/context.core.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context.module" afterPath="$PROJECT_DIR$/sites/all/modules/context/context.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context.plugins.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/context.plugins.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/context_layouts.module" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/context_layouts.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/plugins/context_layouts_reaction_block.css" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/plugins/context_layouts_reaction_block.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/plugins/context_layouts_reaction_block.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/plugins/context_layouts_reaction_block.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/plugins/context_layouts_reaction_block.js" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_layouts/plugins/context_layouts_reaction_block.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/context_ui.css" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/context_ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/context_ui.js" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/context_ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/context_ui.module" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/context_ui.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/export_ui/context.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/export_ui/context.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/export_ui/context_export_ui.class.php" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/export_ui/context_export_ui.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/jquery.pageEditor.js" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/jquery.pageEditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/theme/context-ui-editor.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/theme/context-ui-editor.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/theme/context-ui-form.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/theme/context-ui-form.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/theme/context-ui-plugins.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/theme/context-ui-plugins.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/context_ui/theme/theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/context_ui/theme/theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_book.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_book.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_bookroot.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_bookroot.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_context.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_context.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_language.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_language.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_menu.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_menu.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_node.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_node.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_node_taxonomy.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_node_taxonomy.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_path.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_path.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_sitewide.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_sitewide.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_taxonomy_term.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_taxonomy_term.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_user.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_user.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_user_page.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_user_page.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_condition_views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_block.css" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_block.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_block.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_block.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_block.js" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_block.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_breadcrumb.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_breadcrumb.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_css_injector.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_css_injector.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_debug.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_debug.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_menu.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_menu.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_region.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_region.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_theme_html.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/plugins/context_reaction_theme_html.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/theme/context-block-browser-item.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/context/theme/context-block-browser-item.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/theme/context-block-browser.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/context/theme/context-block-browser.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/context/theme/context_reaction_block.theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/context/theme/context_reaction_block.theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/LICENSE.txt" afterPath="$PROJECT_DIR$/sites/all/modules/entity/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/entity/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/ctools/content_types/entity_view.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/ctools/content_types/entity_view.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity.features.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity.features.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity.i18n.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity.i18n.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity.module" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity.rules.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity.rules.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity_token.module" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity_token.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/entity_token.tokens.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/entity_token.tokens.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/includes/entity.controller.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/includes/entity.controller.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/includes/entity.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/includes/entity.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/includes/entity.property.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/includes/entity.property.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/includes/entity.ui.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/includes/entity.ui.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/includes/entity.wrapper.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/includes/entity.wrapper.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/book.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/book.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/callbacks.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/callbacks.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/comment.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/comment.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/field.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/field.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/locale.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/locale.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/node.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/node.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/poll.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/poll.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/statistics.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/statistics.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/system.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/system.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/taxonomy.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/taxonomy.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/modules/user.info.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/modules/user.info.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_feature.module" afterPath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_feature.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_test_i18n.module" afterPath="$PROJECT_DIR$/sites/all/modules/entity/tests/entity_test_i18n.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/entity.views.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/entity.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/entity_views_example_query.php" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/entity_views_example_query.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_field_handler_helper.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_field_handler_helper.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_area_entity.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_area_entity.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_boolean.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_boolean.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_date.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_date.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_duration.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_duration.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_entity.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_entity.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_field.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_field.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_numeric.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_numeric.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_options.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_options.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_text.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_text.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_uri.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_field_uri.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_relationship.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_relationship.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_relationship_by_bundle.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/handlers/entity_views_handler_relationship_by_bundle.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/entity/views/plugins/entity_views_plugin_row_entity_view.inc" afterPath="$PROJECT_DIR$/sites/all/modules/entity/views/plugins/entity_views_plugin_row_entity_view.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/menu_attributes/LICENSE.txt" afterPath="$PROJECT_DIR$/sites/all/modules/menu_attributes/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/menu_attributes/menu_attributes.module" afterPath="$PROJECT_DIR$/sites/all/modules/menu_attributes/menu_attributes.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega-24-twocol-12-12-stacked.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega-24-twocol-12-12-stacked.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega_24_twocol_12_12_stacked.inc" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega_24_twocol_12_12_stacked.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_18_6/omega-24-twocol-18-6.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_18_6/omega-24-twocol-18-6.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_18_6/omega_24_twocol_18_6.inc" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_18_6/omega_24_twocol_18_6.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_6_18/omega-24-twocol-6-18.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_6_18/omega-24-twocol-6-18.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_6_18/omega_24_twocol_6_18.inc" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_24_twocol_6_18/omega_24_twocol_6_18.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_panels_admin_24.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/panels/layouts/omega_24/omega_panels_admin_24.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/block.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/block.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/comment.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/comment.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/html.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/html.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/node.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/node.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/region--branding.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/region--branding.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/region--content.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/region--content.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/region--sidebar_first.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/region--sidebar_first.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/section--footer.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/section--footer.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/section--header.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/section--header.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/section.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/section.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/zone--content.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/templates/zone--content.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/omega/theme-settings.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/omega/theme-settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/css/YOURTHEME-alpha-default-narrow.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/css/YOURTHEME-alpha-default-narrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/css/YOURTHEME-alpha-default-normal.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/css/YOURTHEME-alpha-default-normal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/css/YOURTHEME-alpha-default-wide.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/css/YOURTHEME-alpha-default-wide.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/css/global.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/preprocess/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/preprocess/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/process/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/process/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/templates/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/alpha-xhtml/templates/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/css/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/css/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/css/YOURTHEME-alpha-default-narrow.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/css/YOURTHEME-alpha-default-narrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/css/YOURTHEME-alpha-default-normal.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/css/YOURTHEME-alpha-default-normal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/css/global.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/preprocess/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/preprocess/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/process/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/process/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/templates/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-html5/templates/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/css/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/css/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/css/YOURTHEME-alpha-default-narrow.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/css/YOURTHEME-alpha-default-narrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/css/YOURTHEME-alpha-default-normal.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/css/YOURTHEME-alpha-default-normal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/css/global.css" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/preprocess/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/preprocess/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/process/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/process/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/README.txt" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/block.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/block.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/comment.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/comment.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/html.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/html.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/node.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/node.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/region--branding.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/region--branding.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/region--menu.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/region--menu.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/region--sidebar_first.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/region--sidebar_first.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/region--sidebar_second.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/region--sidebar_second.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/section--footer.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/section--footer.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/section--header.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/omega/starterkits/omega-xhtml/templates/section--header.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/default.settings.php" afterPath="$PROJECT_DIR$/sites/default/default.settings.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/msdc_forms.module" afterPath="$PROJECT_DIR$/sites/default/modules/msdc_forms.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default-narrow.css" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default-narrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default-normal.css" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default-normal.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/msdc.info" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/msdc.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/preprocess/preprocess-html.inc" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/preprocess/preprocess-html.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/templates/html.tpl.php" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/templates/html.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/example.sites.php" afterPath="$PROJECT_DIR$/sites/example.sites.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/README.txt" afterPath="$PROJECT_DIR$/themes/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/color/color.inc" afterPath="$PROJECT_DIR$/themes/bartik/color/color.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/color/preview.css" afterPath="$PROJECT_DIR$/themes/bartik/color/preview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/color/preview.html" afterPath="$PROJECT_DIR$/themes/bartik/color/preview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/color/preview.js" afterPath="$PROJECT_DIR$/themes/bartik/color/preview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/ie.css" afterPath="$PROJECT_DIR$/themes/bartik/css/ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/ie6.css" afterPath="$PROJECT_DIR$/themes/bartik/css/ie6.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/layout-rtl.css" afterPath="$PROJECT_DIR$/themes/bartik/css/layout-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/layout.css" afterPath="$PROJECT_DIR$/themes/bartik/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/maintenance-page.css" afterPath="$PROJECT_DIR$/themes/bartik/css/maintenance-page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/style-rtl.css" afterPath="$PROJECT_DIR$/themes/bartik/css/style-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/css/style.css" afterPath="$PROJECT_DIR$/themes/bartik/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/template.php" afterPath="$PROJECT_DIR$/themes/bartik/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/templates/comment.tpl.php" afterPath="$PROJECT_DIR$/themes/bartik/templates/comment.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/templates/maintenance-page.tpl.php" afterPath="$PROJECT_DIR$/themes/bartik/templates/maintenance-page.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/templates/page.tpl.php" afterPath="$PROJECT_DIR$/themes/bartik/templates/page.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/color/preview.css" afterPath="$PROJECT_DIR$/themes/garland/color/preview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/fix-ie-rtl.css" afterPath="$PROJECT_DIR$/themes/garland/fix-ie-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/fix-ie.css" afterPath="$PROJECT_DIR$/themes/garland/fix-ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/maintenance-page.tpl.php" afterPath="$PROJECT_DIR$/themes/garland/maintenance-page.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/node.tpl.php" afterPath="$PROJECT_DIR$/themes/garland/node.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/page.tpl.php" afterPath="$PROJECT_DIR$/themes/garland/page.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/style-rtl.css" afterPath="$PROJECT_DIR$/themes/garland/style-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/style.css" afterPath="$PROJECT_DIR$/themes/garland/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/template.php" afterPath="$PROJECT_DIR$/themes/garland/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/theme-settings.php" afterPath="$PROJECT_DIR$/themes/garland/theme-settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/ie.css" afterPath="$PROJECT_DIR$/themes/seven/ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/ie6.css" afterPath="$PROJECT_DIR$/themes/seven/ie6.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/ie7.css" afterPath="$PROJECT_DIR$/themes/seven/ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/maintenance-page.tpl.php" afterPath="$PROJECT_DIR$/themes/seven/maintenance-page.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/page.tpl.php" afterPath="$PROJECT_DIR$/themes/seven/page.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/reset.css" afterPath="$PROJECT_DIR$/themes/seven/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/style-rtl.css" afterPath="$PROJECT_DIR$/themes/seven/style-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/style.css" afterPath="$PROJECT_DIR$/themes/seven/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/template.php" afterPath="$PROJECT_DIR$/themes/seven/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/vertical-tabs-rtl.css" afterPath="$PROJECT_DIR$/themes/seven/vertical-tabs-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/vertical-tabs.css" afterPath="$PROJECT_DIR$/themes/seven/vertical-tabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/stark/README.txt" afterPath="$PROJECT_DIR$/themes/stark/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/stark/layout.css" afterPath="$PROJECT_DIR$/themes/stark/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.php" afterPath="$PROJECT_DIR$/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.config" afterPath="$PROJECT_DIR$/web.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlrpc.php" afterPath="$PROJECT_DIR$/xmlrpc.php" />
     </list>
     <ignored path="home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -263,7 +36,7 @@
           <file leaf-file-name="msdc_forms.module" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sites/default/modules/msdc_forms.module">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="154" column="0" selection-start="4048" selection-end="4048" vertical-scroll-proportion="-27.884615">
+                <state line="156" column="10" selection-start="4146" selection-end="4146" vertical-scroll-proportion="-28.923077">
                   <folding />
                 </state>
               </provider>
@@ -278,10 +51,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/global.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="343" column="0" selection-start="5994" selection-end="6125" vertical-scroll-proportion="0.49454546">
+                <state line="347" column="14" selection-start="6165" selection-end="6165" vertical-scroll-proportion="-131.24">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="msdc.info" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/msdc.info">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.40568182">
                   <folding />
                 </state>
               </provider>
@@ -327,10 +109,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="msdc-alpha-default.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="msdc-alpha-default.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="63" column="10" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.7112118">
+                <state line="62" column="0" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.6276013">
                   <folding />
                 </state>
               </provider>
@@ -370,11 +152,12 @@
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default-normal.css" />
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default-narrow.css" />
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/preprocess/preprocess-html.inc" />
-        <option value="$PROJECT_DIR$/sites/default/modules/msdc_forms.module" />
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/preprocess/preprocess-region.inc" />
-        <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" />
+        <option value="$PROJECT_DIR$/sites/default/modules/msdc_forms.module" />
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" />
+        <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" />
+        <option value="$PROJECT_DIR$/sites/default/themes/msdc/msdc.info" />
       </list>
     </option>
   </component>
@@ -394,10 +177,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1272" />
+    <option name="y" value="-288" />
     <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -791,14 +574,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="1272" y="-288" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13660619" sideWeight="0.3270925" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16168623" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16168623" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2246696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -900,11 +683,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/msdc.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/js/html5logo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="8" selection-start="126" selection-end="126" vertical-scroll-proportion="0.09626274" />
@@ -918,20 +696,6 @@
     <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/preprocess/preprocess-html.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="39" selection-start="197" selection-end="197" vertical-scroll-proportion="0.13885647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/msdc_forms.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="0" selection-start="4048" selection-end="4048" vertical-scroll-proportion="-27.884615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/preprocess/preprocess-region.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
@@ -964,16 +728,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/global.css">
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/preprocess/preprocess-region.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="343" column="0" selection-start="5994" selection-end="6125" vertical-scroll-proportion="0.49454546">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/msdc_forms.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="10" selection-start="4146" selection-end="4146" vertical-scroll-proportion="-28.923077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="10" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.7112118">
+        <state line="62" column="0" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.6276013">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="347" column="14" selection-start="6165" selection-end="6165" vertical-scroll-proportion="-131.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/msdc.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.40568182">
           <folding />
         </state>
       </provider>
