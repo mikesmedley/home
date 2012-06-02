@@ -149,13 +149,11 @@ function msdc_contact_form_submit($form, &$form_state) {
         "From: $from\r\nX-Originating-IP: " . $_SERVER['REMOTE_ADDR'] . "\r\nX-Originating-Host: $host\r\n" );
 
     drupal_set_message(t('Your e-mail has been sent.'));
-
 }
-
 
 function msdc_alpha_preprocess_html( &$vars ) {
     if( $_SERVER['REQUEST_URI'] == base_path() ) {
         $vars['head_title'] = "Mike Smedley | Web Developer - Programmer | PHP, JavaScript, Drupal | Jacksonville, Florida";
+        drupal_add_js( base_path()."/sites/default/themes/msdc/js/html5logo.js" );
     }
 }
-
