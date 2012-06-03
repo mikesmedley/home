@@ -2,6 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de9a1e5-098b-4ea5-a097-47ad38d5bff9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/advanced_help.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/advanced_help.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help/advanced_help.help.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help/180px-Andi_Gutmans_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help/180px-Lerdorf.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help/180px-PHP_Hello_World_screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help/help_example.help.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help_example.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/advanced-help-popup.tpl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/advanced_help.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help-icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help-popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help/ini-file.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help/translation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help/using-advanced-help.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help/why-advanced-help.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help/about-php.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help/history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help/security.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help/syntax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help/usage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/advanced_help/help_example/help_example.module" />
       <change type="DELETED" beforePath="C:\Users\Mike Smedley\Web Site\public_html\home\sites\default\themes\msdc\images\Corel Auto-Preserve\region-branding-mobile-bg.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Mike Smedley\Web Site\public_html\home\sites\default\themes\msdc\images\Corel Auto-Preserve\sheet-bg.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Mike Smedley\Web Site\public_html\home\sites\default\themes\msdc\images\Corel Auto-Preserve\site-slogan-bg.png" afterPath="" />
@@ -506,7 +531,11 @@
       <created>1338733468087</created>
       <updated>1338733468087</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Removing Corel work files from Git versioning">
+      <created>1338733951093</created>
+      <updated>1338733951093</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -592,7 +621,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved mobile appearance.  Resized mobile background images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing Corel work files from Git versioning" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -612,6 +641,7 @@
     <MESSAGE value="Animation improvement" />
     <MESSAGE value="Positioning changes for Facebook Like button" />
     <MESSAGE value="Improved mobile appearance.  Resized mobile background images" />
+    <MESSAGE value="Removing Corel work files from Git versioning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
