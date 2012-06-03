@@ -192,7 +192,7 @@ a.content-link {
     background-image: url('../images/region-branding-mobile-bg.png');
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 480px 210px;
+    background-size: 600px 210px;
     position: relative;
     top: 0;
     left: 0;
@@ -358,11 +358,10 @@ li.rss {
     display: inline;
 }
 
-/* .main-menu a */
 #block-system-main-menu .menu a {
-    -moz-box-shadow:inset 0px 1px 0px 0px #dbb0ad;
-    -webkit-box-shadow:inset 0px 1px 0px 0px #dbb0ad;
-    box-shadow:inset 0px 1px 0px 0px #dbb0ad;
+    -moz-box-shadow:inset 0 1px 0 0 #dbb0ad;
+    -webkit-box-shadow:inset 0 1px 0 0 #dbb0ad;
+    box-shadow:inset 0 1px 0 0 #dbb0ad;
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #694945), color-stop(1, #b36464) );
     background:-moz-linear-gradient( center top, #694945 5%, #b36464 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#694945', endColorstr='#b36464');
