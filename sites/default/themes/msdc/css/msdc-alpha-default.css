@@ -56,23 +56,6 @@
     top: 0px;
 }
 
-/*---------------- zone-menu ----------------------*/
-
-#block-block-3 {
-    width: 100px;
-    float: left;
-}
-
-.fb-like {
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    width: 100px;
-}
-
-#block-system-main-menu {
-    float:right;
-}
-
 /*------------------ zone-content ---------------*/
 
 #region-sidebar-first #edit-submit {
