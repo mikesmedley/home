@@ -1,13 +1,13 @@
 <?php
 
-function msdc_forms_help( $path, $arg )
+function msdc_custom_help( $path, $arg )
 {
-    if( $path == 'admin/help#msdc_forms' ) {
-        return( t("Handles form creation, validation, and processing.") );
+    if( $path == 'admin/help#msdc_custom' ) {
+        return( t("MSDC custom site functionality.") );
     }
 }
 
-function msdc_contact_form( $form, &$form_state )
+function msdc_custom_contact_form( $form, &$form_state )
 {
     $form['from'] = array(
         '#id' => 'from',
@@ -46,6 +46,7 @@ function msdc_contact_form( $form, &$form_state )
         '#id' => 'cancel',
         '#type' => 'button',
         '#value' => t("Cancel"),
+        '#executes_submit_callback' => false,
     );
 
     return( $form );
@@ -121,13 +122,13 @@ function validate_email($email)
    return $isValid;
 }
 
-function msdc_contact_form_validate($form, &$form_state) {
+function msdc_custom_contact_form_validate($form, &$form_state) {
   if ( !validate_email( $form_state['values']['from'] ) ) {
     form_set_error('', t('E-mail Address is invalid.'));
   }
 }
 
-function msdc_contact_form_submit($form, &$form_state) {
+function msdc_custom_contact_form_submit($form, &$form_state) {
 
     $from = $form_state['values']['from'];
     $subj = $form_state['values']['subject'];
@@ -151,9 +152,8 @@ function msdc_contact_form_submit($form, &$form_state) {
     drupal_set_message(t('Your e-mail has been sent.'));
 }
 
-function msdc_alpha_preprocess_html( &$vars ) {
+function msdc_custom_preprocess_html( &$vars ) {
     if( $_SERVER['REQUEST_URI'] == base_path() ) {
         $vars['head_title'] = "Mike Smedley | Web Developer - Programmer | PHP, JavaScript, Drupal | Jacksonville, Florida";
-        drupal_add_js( base_path()."/sites/default/themes/msdc/js/html5logo.js" );
     }
 }

@@ -6,4 +6,4 @@ sites/*/files
 sites/*/private
 
 # Ignore Corel Paint Shop Pro work files
-*/Corel-Auto-Preserve
+sites/*/Corel-Auto-Preserve

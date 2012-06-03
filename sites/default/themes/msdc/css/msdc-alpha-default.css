@@ -19,6 +19,18 @@
    background-position: left top;
 }
 
+#html5canvas {
+    position: absolute;
+    top:  0;
+    left: 0;
+    z-index: 9;
+    pointer-events: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/transparent.png', sizingMethod='scale');
+    background:none !important;
+    display: block;
+}
+
+
 
 /*---------------- zone-user ----------------------*/
 
