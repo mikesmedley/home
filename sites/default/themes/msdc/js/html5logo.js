@@ -18,52 +18,37 @@ jQuery(document).ready( function() {
         return( { x : leftValue, y : topValue } );
     }
 
-    function redraw() {
-        canvas = null;
-        ctx = null;
-        left = 0;
+    canvas = null;
+    ctx = null;
+    left = 0;
 
-        var pos = getPosition( document.getElementById( "region-branding" ));
-        var top = pos.y + ( size / 2 );
-        var stop = pos.x + ( jQuery("#region-branding").width() * 0.8 );
+    var pos = getPosition( document.getElementById( "region-branding" ));
+    var top = pos.y + ( size / 2 );
+    var stop = pos.x + ( jQuery("#region-branding").width() * 0.8 );
 
-        function draw() {
-            ctx.clearRect( left - skip, top, size, size );
-            ctx.drawImage( img, left, top, size, size );
-            if( left >= stop ) clearInterval( id );
-            left += skip;
-        }
-
-        var id = setInterval( function() {
-            if( !canvas ) {
-                canvas = document.getElementById("html5canvas");
-                canvas.width = window.innerWidth;
-                canvas.height = window.innerHeight;
-                ctx = canvas.getContext( "2d" );
-            }
-            if( !img ) {
-                img = new Image();
-                img.src = "sites/default/themes/msdc/images/html5logo.png";
-                img.onload = draw;
-            }
-            else {
-                draw();
-            }
-        }, 10 );
+    function draw() {
+        ctx.clearRect( left - skip, top, size, size );
+        ctx.drawImage( img, left, top, size, size );
+        if( left >= stop ) clearInterval( id );
+        left += skip;
     }
-    redraw();
 
-    var resizing = false;
-    jQuery(window).resize(function() {
-        if( !resizing ) {
-            resizing = true;
-            window.setTimeout( function() {
-                ctx.clearRect( left - skip, top, size, size );
-                redraw();
-                resizing = false;
-            }, 1000 );
+    var id = setInterval( function() {
+        if( !canvas ) {
+            canvas = document.getElementById("html5canvas");
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            ctx = canvas.getContext( "2d" );
         }
-    });
+        if( !img ) {
+            img = new Image();
+            img.src = "sites/default/themes/msdc/images/html5logo.png";
+            img.onload = draw;
+        }
+        else {
+            draw();
+        }
+    }, 10 );
 
 });
 

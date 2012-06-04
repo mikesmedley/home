@@ -207,6 +207,7 @@ a.content-link {
     background-image: url('../images/site-name-bg.png');
     background-repeat: no-repeat;
     background-position: left;
+    background-size: 300px 57px;
     width: 300px;
     height: 100px;
     white-space: nowrap;
@@ -225,8 +226,9 @@ a.content-link {
     background-image: url('../images/site-slogan-bg.png');
     background-repeat: no-repeat;
     background-position: left;
-    width: 332px;
-    height: 20px;
+    background-size: 300px 18px;
+    width: 300px;
+    height: 22px;
     white-space: nowrap;
 }
 
