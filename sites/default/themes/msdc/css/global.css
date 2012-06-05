@@ -331,7 +331,7 @@ li.rss {
 #zone-menu {
     padding-top: 5px;
     padding-bottom: 0px;
-    background-image: url('../images/zone-menu-bg.png');
+    background-image: url('../images/zone-menu-mobile-bg.png');
 }
 
 #block-block-3 {
@@ -346,7 +346,6 @@ li.rss {
 }
 
 #block-system-main-menu {
-    float:right;
 }
 
 #block-system-main-menu ul {
@@ -357,7 +356,8 @@ li.rss {
 }
 
 #block-system-main-menu .menu li {
-    display: inline;
+    display: block;
+    text-align:center;
 }
 
 #block-system-main-menu .menu a {
@@ -374,9 +374,13 @@ li.rss {
     border:1px solid #1a0806;
     display:inline-block;
     font-family:Arial,sans-serif;
-    font-size:13px;
+    font-size:16px;
     font-weight:bold;
-    padding:6px 24px;
+    padding:18px 46px;
+    width: 350px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
     text-decoration:none;
     text-shadow:1px 1px 0 #4f3e3d;
     color:white;
@@ -445,6 +449,14 @@ li.rss {
 
 #msdc-custom-contact-form #cancel {
     margin-left: 70px;
+}
+
+#zone-content .breadcrumb a {
+    color: #a25fee;
+}
+
+#zone-content .breadcrumb a:hover {
+    color:#FF3CC6;
 }
 
 /*---------------- news feed -------------------*/
