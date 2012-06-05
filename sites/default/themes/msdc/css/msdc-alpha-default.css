@@ -8,8 +8,8 @@
 
 #page-background-glare {
    position: relative;
-   top: 0px;
-   left: 0px;
+   top: 0;
+   left: 0;
    max-width: 307px;
    min-width: 1000px;
    height: 321px;
@@ -64,7 +64,7 @@
 
 .site-slogan {
     position: relative;
-    top: 0px;
+    top: 0;
 }
 
 /*--------------------- zone-menu-------------------*/

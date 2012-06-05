@@ -1,5 +1,5 @@
 
-jQuery(document).ready( function() {
+jQuery(window).load( function() {
 
     var left = 0, img = null, canvas = null, ctx = null, skip = 5, size = 40;
 
