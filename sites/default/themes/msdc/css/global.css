@@ -406,7 +406,7 @@ li.rss {
 
 #zone-content {
     padding-top: 10px;
-    height: 700px;
+    height: 1200px;
     color: #f7d3ff;
 }
 
@@ -460,6 +460,10 @@ li.rss {
 }
 
 /*---------------- news feed -------------------*/
+
+#region-sidebar-second {
+    margin-top:20px;
+}
 
 #block-aggregator-category-1 .block-title {
     margin-bottom: 5px;

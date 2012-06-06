@@ -96,8 +96,16 @@
 
 /*------------------ zone-content ---------------*/
 
+#zone-content {
+    color: #f7d3ff;
+}
+
 #region-sidebar-first #edit-submit {
     margin-top: 0;
+}
+
+#region-sidebar-second {
+    margin-top:inherit;
 }
 
 
