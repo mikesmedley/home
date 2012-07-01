@@ -2,8 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de9a1e5-098b-4ea5-a097-47ad38d5bff9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/images/drupal-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/images/omega-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/images/phpstorm-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/images/psp-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/images/tsepro-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/images/da_organization_large.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/CHANGELOG.txt" afterPath="$PROJECT_DIR$/sites/all/modules/delta/CHANGELOG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/LICENSE.txt" afterPath="$PROJECT_DIR$/sites/all/modules/delta/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/delta/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta.info" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta.install" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta.module" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_blocks/delta_blocks.info" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_blocks/delta_blocks.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_blocks/delta_blocks.module" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_blocks/delta_blocks.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_blocks/includes/delta_blocks.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_blocks/includes/delta_blocks.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_blocks/includes/delta_blocks.theme.inc" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_blocks/includes/delta_blocks.theme.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_color/delta_color.info" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_color/delta_color.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_color/delta_color.module" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_color/delta_color.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_color/plugins/delta_injection_color.inc" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_color/plugins/delta_injection_color.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_ui/delta_ui.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_ui/delta_ui.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_ui/delta_ui.info" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_ui/delta_ui.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_ui/delta_ui.module" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_ui/delta_ui.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_ui/export_ui/delta.inc" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_ui/export_ui/delta.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/delta_ui/export_ui/delta_export_ui.class.php" afterPath="$PROJECT_DIR$/sites/all/modules/delta/delta_ui/export_ui/delta_export_ui.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/plugins/context/context_reaction_delta.inc" afterPath="$PROJECT_DIR$/sites/all/modules/delta/plugins/context/context_reaction_delta.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/plugins/delta/delta_injection.inc" afterPath="$PROJECT_DIR$/sites/all/modules/delta/plugins/delta/delta_injection.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/delta/plugins/delta/delta_injection_theme_settings.inc" afterPath="$PROJECT_DIR$/sites/all/modules/delta/plugins/delta/delta_injection_theme_settings.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/LICENSE.txt" afterPath="$PROJECT_DIR$/sites/all/modules/devel/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/devel/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/README_devel_node_access.txt" afterPath="$PROJECT_DIR$/sites/all/modules/devel/README_devel_node_access.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel-rtl.css" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.css" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.drush.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.drush.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.info" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.install" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.js" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.mail.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.mail.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.module" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.pages.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.pages.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.rules.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.rules.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel.test" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/develDrushTest.php" afterPath="$PROJECT_DIR$/sites/all/modules/devel/develDrushTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate.drush.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate.drush.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate.fields.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate.fields.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate.info" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate.module" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate_batch.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/devel_generate_batch.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/file.devel_generate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/file.devel_generate.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/image.devel_generate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/image.devel_generate.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/list.devel_generate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/list.devel_generate.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/number.devel_generate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/number.devel_generate.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/taxonomy.devel_generate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/taxonomy.devel_generate.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/text.devel_generate.inc" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_generate/text.devel_generate.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_node_access.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_node_access.api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_node_access.info" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_node_access.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_node_access.install" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_node_access.install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_node_access.js" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_node_access.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/devel_node_access.module" afterPath="$PROJECT_DIR$/sites/all/modules/devel/devel_node_access.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/jquery-1.4.4-uncompressed.js" afterPath="$PROJECT_DIR$/sites/all/modules/devel/jquery-1.4.4-uncompressed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/krumo/class.krumo.php" afterPath="$PROJECT_DIR$/sites/all/modules/devel/krumo/class.krumo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/krumo/skins/blue/skin.css" afterPath="$PROJECT_DIR$/sites/all/modules/devel/krumo/skins/blue/skin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/krumo/skins/default/skin.css" afterPath="$PROJECT_DIR$/sites/all/modules/devel/krumo/skins/default/skin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/krumo/skins/green/skin.css" afterPath="$PROJECT_DIR$/sites/all/modules/devel/krumo/skins/green/skin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/krumo/skins/orange/skin.css" afterPath="$PROJECT_DIR$/sites/all/modules/devel/krumo/skins/orange/skin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/devel/krumo/skins/white/skin.css" afterPath="$PROJECT_DIR$/sites/all/modules/devel/krumo/skins/white/skin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/modules/msdc_custom/msdc_custom.module" afterPath="$PROJECT_DIR$/sites/default/modules/msdc_custom/msdc_custom.module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" />
     </list>
     <ignored path="home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,55 +98,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="msdc-alpha-default-narrow.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default-narrow.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="379" column="12" selection-start="7139" selection-end="7139" vertical-scroll-proportion="0.82175225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="msdc-alpha-default.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="56" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="msdc_custom.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/modules/msdc_custom/js/msdc_custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="msdc.info" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/msdc.info">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html5logo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/js/html5logo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="91" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+            <state line="473" column="0" selection-start="8949" selection-end="8949" vertical-scroll-proportion="0.25847954">
               <folding />
             </state>
           </provider>
@@ -110,12 +134,12 @@
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/preprocess/preprocess-html.inc" />
         <option value="localhost/home/index.php" />
         <option value="$PROJECT_DIR$/sites/default/modules/msdc/msdc_custom/msdc_custom.module" />
-        <option value="$PROJECT_DIR$/sites/default/modules/msdc_custom/msdc_custom.module" />
         <option value="$PROJECT_DIR$/sites/default/modules/msdc_custom/js/msdc_custom.js" />
-        <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" />
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/js/html5logo.js" />
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/js/msdc.js" />
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/msdc.info" />
+        <option value="$PROJECT_DIR$/sites/default/modules/msdc_custom/msdc_custom.module" />
+        <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" />
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" />
       </list>
     </option>
@@ -136,10 +160,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="38" />
+    <option name="width" value="1789" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -167,6 +190,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,48 +302,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msdc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msdc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -320,18 +313,18 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
-  <component name="PublishConfig" serverName="localhost" serverId="7a60fb90-5b36-4719-8f5e-6b2fcfb2153a" uploadOnCheckin="bb887062-285d-4464-981b-88c9b006a601">
+  <component name="PublishConfig" serverName="localhost" serverId="7a60fb90-5b36-4719-8f5e-6b2fcfb2153a">
     <servers>
       <server id="7a60fb90-5b36-4719-8f5e-6b2fcfb2153a">
         <serverdata>
@@ -348,10 +341,10 @@
         </serverdata>
       </server>
     </servers>
-    <option name="myUploadOnCheckinName" value="mikesmedley.com" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mike Smedley\My Web Sites\public_html\home\sites\default\themes\msdc\images" />
       <recent name="C:\Users\Mike Smedley\Web Site\public_html\home\sites\default\modules" />
       <recent name="C:\Users\Mike Smedley\Web Site\public_html\home\sites\default\modules\msdc" />
     </key>
@@ -390,17 +383,17 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
-      <method>
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" session_id="phpstorm">
       <method>
         <option name="FtpUpload" enabled="false">
           <server_id />
           <server_name />
         </option>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method>
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
@@ -531,7 +524,15 @@
       <created>1338914299464</created>
       <updated>1338914299464</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Modified mobile button size to use percentages.">
+      <created>1338942452402</created>
+      <updated>1338942452403</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Improved page spacing on mobile layout.">
+      <created>1338944612543</created>
+      <updated>1338944612543</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -555,26 +556,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="38" y="0" width="1789" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2675906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13660619" sideWeight="0.3270925" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18303095" sideWeight="0.73240936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1910828" sideWeight="0.6715909" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2238806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2764317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -617,7 +618,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved animation from document.ready to window.load" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorg of menus, etc." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -643,6 +644,9 @@
     <MESSAGE value="Removed redraw on viewport resize.  Resized images for better mobile display." />
     <MESSAGE value="Larger buttons for mobile layout." />
     <MESSAGE value="Moved animation from document.ready to window.load" />
+    <MESSAGE value="Modified mobile button size to use percentages." />
+    <MESSAGE value="Improved page spacing on mobile layout." />
+    <MESSAGE value="Reorg of menus, etc." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -655,23 +659,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="http://localhost/home/index.php">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.17852975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/common.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6185" column="0" selection-start="233900" selection-end="233900" vertical-scroll-proportion="0.25236967" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/form.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1724" column="0" selection-start="80333" selection-end="80367" vertical-scroll-proportion="0.25236967" />
@@ -692,48 +679,68 @@
         <state line="352" column="4" selection-start="10390" selection-end="10390" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/modules/msdc_custom/msdc_custom.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="102" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.26832017" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default-narrow.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="56" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/js/html5logo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="91" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="91" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7703928" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAINTAINERS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="299" column="81" selection-start="8177" selection-end="8177" vertical-scroll-proportion="0.84592146" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/modules/msdc_custom/js/msdc_custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" />
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.026898734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default-narrow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="209" selection-end="209" vertical-scroll-proportion="0.1613924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/modules/msdc_custom/msdc_custom.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="102" selection-start="4298" selection-end="4298" vertical-scroll-proportion="0.5635939" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/msdc.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.019252548" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/files/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="33" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.14502925">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="12" selection-start="7139" selection-end="7139" vertical-scroll-proportion="0.82175225">
+        <state line="473" column="0" selection-start="8949" selection-end="8949" vertical-scroll-proportion="0.25847954">
           <folding />
         </state>
       </provider>

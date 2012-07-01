@@ -439,6 +439,11 @@ li.rss {
     margin-top: 0;
 }
 
+#block-block-4 { /* Drupal Association */
+    background-image: none;
+    display: none;
+}
+
 #region-content h1.title {
     margin: 10px 0 5px;
 }
@@ -457,6 +462,47 @@ li.rss {
 
 #zone-content .breadcrumb a:hover {
     color:#FF3CC6;
+}
+
+#node-page-6 table { /* About */
+    border: none;
+}
+
+#node-page-6 tr:hover td, #node-page-6 tr.even:hover td.active, #node-page-6 tr.odd:hover td.active {
+    background-color: #212b2a;
+}
+
+#node-page-6 table td {
+    border: none;
+    height: 120px;
+}
+
+#node-page-6 h4 {
+    text-decoration: underline;
+}
+
+#drupal-icon {
+    margin-left: 10px;
+}
+
+#omega-logo {
+    height: 105px;
+    margin-left: 5px;
+}
+
+#phpstorm-logo {
+    height: 80px;
+    margin-left: 15px;
+}
+
+#tsepro-logo {
+    height: 80px;
+    margin-left: 15px;
+}
+
+#psp-logo {
+    height: 95px;
+    margin-left: 15px;
 }
 
 /*---------------- news feed -------------------*/

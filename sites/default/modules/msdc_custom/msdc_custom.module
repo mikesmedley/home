@@ -152,3 +152,17 @@ function msdc_custom_preprocess_html( &$vars ) {
         $vars['head_title'] = "Mike Smedley | Web Developer - Programmer | PHP, JavaScript, Drupal | Jacksonville, Florida";
     }
 }
+
+function msdc_custom_page_alter(&$page) {
+
+    // if IE, use latest rendering engine
+    $meta_ie_render_engine = array(
+        '#type' => 'html_tag',
+        '#tag' => 'meta',
+        '#attributes' => array(
+            'http-equiv' => 'X-UA-Compatible',
+            'content' =>  'IE=edge',
+        )
+    );
+    drupal_add_html_head($meta_ie_render_engine, 'meta_ie_render_engine');
+}
