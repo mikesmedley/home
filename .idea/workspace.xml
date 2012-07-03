@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de9a1e5-098b-4ea5-a097-47ad38d5bff9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/drupal-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/firebug-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/firefox-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/iview-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/omega-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/phpstorm-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/psp-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/drupal-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/omega-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/phpstorm-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/tsepro-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/tsepro-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/images/da_individual_large.png" />
-      <change type="DELETED" beforePath="C:\Users\Mike Smedley\My Web Sites\public_html\home\sites\default\images\drupal-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike Smedley\My Web Sites\public_html\home\sites\default\images\omega-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike Smedley\My Web Sites\public_html\home\sites\default\images\phpstorm-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike Smedley\My Web Sites\public_html\home\sites\default\images\psp-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike Smedley\My Web Sites\public_html\home\sites\default\images\tsepro-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike Smedley\My Web Sites\public_html\home\sites\default\themes\msdc\images\da_organization_large.png" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Mike Smedley\My Web Sites\public_html\home\sites\default\modules\msdc_custom\js\msdc_custom.js" afterPath="$PROJECT_DIR$/sites/default/modules/msdc_custom/msdc_custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/images/sheet-bg.png" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/images/sheet-bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" />
@@ -51,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="408" column="19" selection-start="7943" selection-end="7943" vertical-scroll-proportion="-9.68">
+            <state line="501" column="0" selection-start="9328" selection-end="9328" vertical-scroll-proportion="0.14480409">
               <folding />
             </state>
           </provider>
@@ -63,7 +43,7 @@
       <file leaf-file-name="msdc-alpha-default.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,16 +52,7 @@
       <file leaf-file-name="msdc_custom.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/modules/msdc_custom/msdc_custom.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="-32.692307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/default/files/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="14" column="42" selection-start="346" selection-end="346" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
@@ -119,8 +90,8 @@
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/msdc.info" />
         <option value="$PROJECT_DIR$/sites/default/modules/msdc_custom/msdc_custom.module" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" />
         <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" />
+        <option value="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" />
       </list>
     </option>
   </component>
@@ -326,7 +297,7 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
-  <component name="PublishConfig" serverName="localhost" serverId="7a60fb90-5b36-4719-8f5e-6b2fcfb2153a">
+  <component name="PublishConfig" serverName="localhost" serverId="7a60fb90-5b36-4719-8f5e-6b2fcfb2153a" uploadOnCheckin="bb887062-285d-4464-981b-88c9b006a601">
     <servers>
       <server id="7a60fb90-5b36-4719-8f5e-6b2fcfb2153a">
         <serverdata>
@@ -343,6 +314,7 @@
         </serverdata>
       </server>
     </servers>
+    <option name="myUploadOnCheckinName" value="mikesmedley.com" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -539,7 +511,11 @@
       <created>1341113092184</created>
       <updated>1341113092184</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add intro + resume stuff to front page, made Props page, added Drupal Association logo.">
+      <created>1341283765596</created>
+      <updated>1341283765596</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -566,19 +542,19 @@
     <frame x="38" y="0" width="1789" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18409091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27613637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2238806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18409091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13660619" sideWeight="0.3270925" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20034742" sideWeight="0.8159091" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2238806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20034742" sideWeight="0.72386366" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27613637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -729,30 +705,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css">
+    <entry file="file://$PROJECT_DIR$/sites/default/files/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="408" column="19" selection-start="7943" selection-end="7943" vertical-scroll-proportion="-9.68">
+        <state line="2" column="23" selection-start="93" selection-end="93" vertical-scroll-proportion="0.055555556">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/modules/msdc_custom/msdc_custom.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="-32.692307">
+        <state line="14" column="42" selection-start="346" selection-end="346" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/files/.htaccess">
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/themes/msdc/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="501" column="0" selection-start="9328" selection-end="9328" vertical-scroll-proportion="0.14480409">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

@@ -151,10 +151,13 @@ a.content-link {
     display: none;
 }
 
+#section-header {
+    margin-bottom: 20;
+}
+
 /*---------------- zone-user ----------------------*/
 
 #zone-user {
-    margin-top: 50px;
     background-image: url('../images/zone-user-bg.png');
     background-color: white;
 }
@@ -452,6 +455,10 @@ li.rss {
     margin-bottom: 20px;
 }
 
+#block-block-5 .block-title { /* Respect */
+    margin-bottom: 5px;
+}
+
 #region-content h1.title {
     margin: 10px 0 5px;
 }
@@ -516,16 +523,8 @@ li.rss {
     margin-top:inherit;
 }
 
-.view-favorite-things .panel-2col .panel-col-last  {
+/*------------------- zone-footer -----------------------*/
+
+#zone-footer {
+    font-size: 8px;
 }
-
-.view-favorite-things .panel-2col .panel-col-first  {
-    width: 130px;
-    text-align:center;
-}
-
-#node-panel-19 footer, #node-panel-21 footer {
-    display: none;
-}
-
-
