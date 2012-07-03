@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de9a1e5-098b-4ea5-a097-47ad38d5bff9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/images/sheet-bg.png" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/images/sheet-bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" afterPath="$PROJECT_DIR$/sites/default/themes/msdc/css/msdc-alpha-default.css" />
     </list>
     <ignored path="home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -515,7 +512,11 @@
       <created>1341283765596</created>
       <updated>1341283765596</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Minor changes.">
+      <created>1341287052235</created>
+      <updated>1341287052235</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -601,7 +602,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add intro + resume stuff to front page, made Props page, added Drupal Association logo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -631,6 +632,7 @@
     <MESSAGE value="Improved page spacing on mobile layout." />
     <MESSAGE value="Reorg of menus, etc." />
     <MESSAGE value="Add intro + resume stuff to front page, made Props page, added Drupal Association logo." />
+    <MESSAGE value="Minor changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
