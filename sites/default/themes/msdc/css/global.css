@@ -433,6 +433,21 @@ li.rss {
     color: #FF3CC6;
     background: none;
 }
+#zone-content .breadcrumb a {
+    color: #a25fee;
+}
+
+#zone-content .breadcrumb a:hover {
+    color:#FF3CC6;
+}
+
+#zone-content .breadcrumb a {
+    color: #a25fee;
+}
+
+#zone-content .breadcrumb a:hover {
+    color:#FF3CC6;
+}
 
 #region-sidebar-first .block-title {
     margin-top: 20px;
@@ -442,13 +457,16 @@ li.rss {
     margin-top: 0;
 }
 
+#region-content h1.title {
+    margin: 10px 0 5px;
+}
+
 #block-system-main {
     margin-bottom: 20px;
 }
 
-#block-block-6 { /* Drupal Association */
-    background-image: none;
-    display: none;
+#block-system-main .pane-title {
+    margin-bottom: 5px;
 }
 
 #block-block-5 {    /* Props intro */
@@ -459,8 +477,9 @@ li.rss {
     margin-bottom: 5px;
 }
 
-#region-content h1.title {
-    margin: 10px 0 5px;
+#block-block-6 { /* Drupal Association */
+    background-image: none;
+    display: none;
 }
 
 .feed-icon {
@@ -471,12 +490,8 @@ li.rss {
     margin-left: 70px;
 }
 
-#zone-content .breadcrumb a {
-    color: #a25fee;
-}
-
-#zone-content .breadcrumb a:hover {
-    color:#FF3CC6;
+.panel-2col .panel-col-first {
+    width: 100px;
 }
 
 /*---------------- news feed -------------------*/
@@ -519,12 +534,16 @@ li.rss {
     overflow-x: auto;
 }
 
-#region-sidebar-second {
-    margin-top:inherit;
-}
-
 /*------------------- zone-footer -----------------------*/
 
 #zone-footer {
     font-size: 8px;
+}
+
+#zone-content .breadcrumb a {
+    color: #a25fee;
+}
+
+#zone-content .breadcrumb a:hover {
+    color:#FF3CC6;
 }
