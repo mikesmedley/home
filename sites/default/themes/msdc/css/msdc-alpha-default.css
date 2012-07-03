@@ -104,19 +104,13 @@
     margin-top: 0;
 }
 
-#block-block-4 { /* Drupal Association */
-    margin: 20px 0 0 0;
+#block-block-6 { /* Drupal Association */
+    margin: 10px 0 20px 0;
     height: 130px;
     width: 130px;
-    background-image: url('../images/da_organization_large.png');
+    background-image: url('../images/da_individual_large.png');
     background-size: 120px 120px;
     background-repeat: no-repeat;
     display: block;
 }
-
-#region-sidebar-second {
-    margin-top:inherit;
-}
-
-
 

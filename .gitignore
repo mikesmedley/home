@@ -2,8 +2,11 @@
 sites/*/settings*.php
 
 # Ignore paths that contain user-generated content.
-sites/*/files
+# sites/*/files
 sites/*/private
 
 # Ignore Corel Paint Shop Pro work files
 sites/*/Corel-Auto-Preserve
+
+# Ignore IDE files
+.idea/*
