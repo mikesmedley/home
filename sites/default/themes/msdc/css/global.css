@@ -473,7 +473,7 @@ li.rss {
     margin-bottom: 20px;
 }
 
-#block-block-5 .block-title { /* Respect */
+#block-block-5 .block-title { /* Props */
     margin-bottom: 5px;
 }
 
@@ -490,8 +490,17 @@ li.rss {
     margin-left: 70px;
 }
 
+.panel-2col {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 .panel-2col .panel-col-first {
-    width: 100px;
+    width: 20%;
+}
+
+.panel-2col .panel-col-last {
+    width: 80%;
 }
 
 /*---------------- news feed -------------------*/
