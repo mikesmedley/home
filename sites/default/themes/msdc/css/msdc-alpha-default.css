@@ -1,22 +1,31 @@
 
 /*------------------ page-wide -------------------*/
 
+body {
+    background-image: url('../images/page-bg.png');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: top left;
+}
+
 #page-background-glare-wrapper {
-   position: fixed;
-   width:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
 }
 
 #page-background-glare {
-   position: absolute;
-   top: 0;
-   left: 0;
-   max-width: 307px;
-   min-width: 1000px;
-   height: 321px;
-   margin-right: auto;
-   background-image: url('../images/page-glare.png');
-   background-repeat: no-repeat;
-   background-position: left top;
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 307px;
+    min-width: 1000px;
+    height: 321px;
+    margin-right: auto;
+    background-image: url('../images/page-glare.png');
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
 #html5canvas {
