@@ -14,24 +14,24 @@ body {
 }
 
 #section-header {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 #section-footer {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #zone-user, #zone-branding, #zone-menu, #zone-header, #zone-content {
-    border-left: 1px solid #BBBBBB;
-    border-right: 1px solid #444444;
+    border-left: 2px solid #BBBBBB;
+    border-right: 2px solid #444444;
 }
 
 .logged-in #zone-user {
-    border-top: 1px solid #BBBBBB;
+    border-top: 2px solid #BBBBBB;
 }
 
 .not-logged-in #zone-branding {
-    border-top: 1px solid #BBBBBB;
+    border-top: 2px solid #BBBBBB;
 }
 
 #zone-content {
@@ -204,7 +204,7 @@ a.content-link {
 }
 
 .logo-img {
-    margin-top: 3px;
+    margin: 0;
     height: 85px;
 }
 
@@ -214,7 +214,7 @@ a.content-link {
 
 #region-branding {
     height: 212px;
-    background-image: url('../images/region-branding-mobile-bg.png');
+    background-image: url('../images/region-branding-mobile-bg-2.png');
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 600px 210px;
@@ -530,6 +530,8 @@ li.rss {
 .panel-2col .panel-col-last {
     width: 75%;
 }
+
+#msdc-custom-contact-form { padding-bottom: 50px; }
 
 /*---------------- news feed -------------------*/
 
